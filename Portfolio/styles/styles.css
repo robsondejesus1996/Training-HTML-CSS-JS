@@ -122,8 +122,25 @@ body {
 
 /* se a tela tiver  menor que isso então a largura maxima é menor que 1200px, então vai executar isso */
 @media (max-width: 1200px) {
+
+  .cabecalho{
+    padding: 10%;
+    
+  }
+
+  .cabecalho__menu{
+    justify-content: center;
+  }
+
+
   .apresentacao {
     flex-direction: column-reverse;
-    padding: 10%;
+    padding: 5%;
   }
+
+  .apresentacao__conteudo{
+    width: auto;
+  }
+
+  
 }
